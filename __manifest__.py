@@ -22,10 +22,10 @@
 ###################################################################################
 
 {
-    'name': 'Product Show Price Wizard',
-    'summary': """Product Show Price Wizard""",
+    'name': 'Stock Picking All Done',
+    'summary': """Stock Picking All Done""",
     'version': '12.0.1.0.0',
-    'description': """Product Show Price Wizard""",
+    'description': """Stock Picking All Done""",
     'author': 'Manuel Calero Solís',
     'company': 'Xtendoo',
     'website': 'http://www.xtendoo.com',
