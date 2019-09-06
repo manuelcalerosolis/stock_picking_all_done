@@ -1,0 +1,7 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* res_partner_hide_internal_notes
+#
+msgid ""
+msgstr ""
+
