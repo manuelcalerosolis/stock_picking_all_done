@@ -16,5 +16,3 @@ class Picking(models.Model):
 
         for move_line in self.move_line_ids:
             move_line.qty_done = move_line.product_uom_qty
-
-        return

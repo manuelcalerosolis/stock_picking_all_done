@@ -2,9 +2,9 @@
 
 ###################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2018-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Niyas Raphy(<https://www.cybrosys.com>)
+#    Xtendoo Technologies
+#    Copyright (C) 2018-TODAY Xtendoo Technologies (<https://www.xtendoo.com>).
+#    Author: Manuel Calero Solís(<https://www.xtendoo.com>)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as
@@ -35,7 +35,7 @@
     ],
     'license': 'AGPL-3',
     'data': [
-        'views/stock_picking_views.xml',
+        'views/views.xml',
     ],
     'demo': [],
     'installable': True,

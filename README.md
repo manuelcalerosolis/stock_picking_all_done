@@ -1,3 +1,3 @@
 
-# product_show_wizard
-Product Show Wizard
+# stock_picking_all_done
+Stock Picking All Done
