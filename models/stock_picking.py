@@ -12,13 +12,17 @@ class Picking(models.Model):
     @api.multi
     def action_all_as_done(self):
 
-        _logger.info("*" * 80)
-        _logger.info("action_all_as_done")
+        #_logger.info("*" * 80)
+        #_logger.info("action_all_as_done")
 
-        if not self.move_lines and not self.move_line_ids:
+        if not self.move_lines and not self.move_line_ids and not self.move_ids_without_package:
             raise UserError(_('Please add some items to move.'))
 
-        for move_line in self.move_line_ids:
-            _logger.info("*"*80)
-            _logger.info(move_line.product_uom_qty)
-            move_line.qty_done = move_line.product_uom_qty
+        if self.move_line_ids:
+            for move_line in self.move_line_ids:
+                move_line.qty_done = move_line.product_uom_qty
+
+        if self.move_ids_without_package:
+            for move_line in self.move_ids_without_package:
+                move_line.quantity_done = move_line.product_qty
+
